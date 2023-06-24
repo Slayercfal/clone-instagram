@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    display: flex;
+    background-color: #fafafa;
+    height: 100vh;
+
+}
+.esquerda{
+    background-image:url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
+    height: 600px;
+    width: 430px;
+    background-repeat: no-repeat;
+}
+.direita{
+    background-repeat: no-repeat;
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.imagem{
+    height: 539px;
+    width: 255px;
+    position: relative;
+    top: 28px;
+    left: 155px;
+}
