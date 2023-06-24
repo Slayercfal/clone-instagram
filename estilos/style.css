@@ -20,9 +20,24 @@ main{
     background-size: auto;
     width: 175px;
     height: 100px;
-    display: inline-block;
-
+    display: flex;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    
 }
+.A1{
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
 
 .imagem{
     height: 539px;
