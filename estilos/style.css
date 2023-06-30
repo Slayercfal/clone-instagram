@@ -8,7 +8,6 @@ body{
     align-content: center;
     align-items: center;
     justify-content: center;
-
 }
 main{
     display: flex;
@@ -17,8 +16,13 @@ main{
     align-content: center;
     align-items: center;
     justify-content: center;
-    height: 98vh;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
     
+   
     
 }
 .esquerda{
@@ -32,11 +36,10 @@ main{
     flex-direction: column;
     border: 1px solid gray;
     border-radius: 5px;
-    width: 400px;
-    align-items: center;
-   
-
+    width: 350px;
+    height: 400px;
     
+    align-items: center;
 }
 .A1{
     display: flex;
@@ -45,35 +48,40 @@ main{
     flex-direction: column;
     flex-wrap: nowrap;
     width: 350px;
-    
 }
-
 .imagem{
     height: 539px;
     width: 255px;
     position: relative;
     top: 28px;
-    left: 155px;
+    left: 155px; 
     
 }
 .imagem2{
-    padding: 0px 50px 0px 20px;
+    padding: 0px 90px 0px 20px;
     display: inline-block;
     align-items: center;
     vertical-align: baseline;
     display: flex;
     justify-content: center;
-  
-    
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 input{
+    display: flex;
+    border: 1px solid rgb(212, 208, 208);
     padding: 10px;
+    margin-left: 30px;
     border-radius: 3px;
-    border: none;
-    margin-bottom: 5px;
+    width: 250px;
+    margin-bottom: 5px; 
+    justify-items: center;
+    align-items: center;
 
-    
 }
+
+
 .cadastro{
     display: block;
     flex-direction: column;
@@ -86,17 +94,57 @@ button{
     border-radius: 10px;
     border: 1px solid gray;
     color: white;
+    width: 270px;
+    margin-left: 30px;
 }
 button:hover{
     background-color: blue;
     cursor: pointer;
 }
 .facebook{
+    display: flex;
     margin-top: 20px;
+    font-weight: bold;
+}
+.senha{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.cadastro2{
+    display: flex;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.app > p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:;
+    text-align: center;
+    padding: 20px;
+}
+.link{
+    display: flex;
+    width: 250px;
+    padding-left: 10px;
+    margin-left: 0px;
+    align-items: center;
+}
+.link > a{
+    width: 100px;
+    padding-left: 20px;
+    align-items: center;
+    margin: 5px 0px 0px 20px;
+    
 }
 
 footer{
     background-color: #fafafa;
     text-align: center;
     margin-bottom: 16px;
+    padding: 50px;
 }
