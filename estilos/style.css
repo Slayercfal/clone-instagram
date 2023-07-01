@@ -5,6 +5,7 @@
 body{
     
     background-color: #fafafa;
+    margin-top: 40px;
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -16,38 +17,37 @@ main{
     align-content: center;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 78vh;
 }
 .container{
     display: flex;
     flex-direction: column;
-    
    
-    
 }
 .esquerda{
     background-image:url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk);
     height: 600px;
     width: 430px;
     background-repeat: no-repeat;
+    padding-right: 30px;
 }
 .direita{
     display: flex;
     flex-direction: column;
-    border: 1px solid gray;
+    border: 1px solid #DBDBDB;
     border-radius: 5px;
     width: 350px;
-    height: 400px;
-    
+    height: 430px;
     align-items: center;
 }
 .A1{
     display: flex;
-    align-items: stretch;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
     width: 350px;
+   
 }
 .imagem{
     height: 539px;
@@ -64,21 +64,23 @@ main{
     vertical-align: baseline;
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-bottom: 20px;
+   margin: 40px 30px 20px 90px;
 }
 input{
     display: flex;
-    border: 1px solid rgb(212, 208, 208);
+    border: 1px solid #DBDBDB;
     padding: 10px;
     margin-left: 30px;
+    margin-right: 30px;
     border-radius: 3px;
     width: 250px;
     margin-bottom: 5px; 
     justify-items: center;
     align-items: center;
 
+}
+a{
+    text-decoration: none;
 }
 
 
@@ -89,13 +91,15 @@ input{
     clear: both;
 }
 button{
-    background-color: rgb(75, 75, 236);
+    background-color: #4CB5F9;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 10px;
-    border: 1px solid gray;
+    border: 1px solid #DBDBDB;
     color: white;
     width: 270px;
     margin-left: 30px;
+    margin-right: 30px;
 }
 button:hover{
     background-color: blue;
@@ -114,16 +118,21 @@ button:hover{
 }
 .cadastro2{
     display: flex;
-    border: 1px solid gray;
-    padding: 15px;
-    margin-top: 20px;
+    border: 1px solid #DBDBDB;
+    padding: 20px;
+    margin-top: 10px;
     text-decoration: none;
+
+}
+
+.cadastro2 > p {
+    text-align: center;
+    padding-left: 50px;
 }
 
 
 .app > p {
     font-family: Arial, Helvetica, sans-serif;
-    padding:;
     text-align: center;
     padding: 20px;
 }
@@ -143,8 +152,26 @@ button:hover{
 }
 
 footer{
+    flex-direction: column;
     background-color: #fafafa;
     text-align: center;
     margin-bottom: 16px;
-    padding: 50px;
+    padding: 70px;
+    height: 30px;
+    
 }
+
+.termos{
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-left: 30px;
+    font-weight: normal;
+    color: gray;
+}
+
+.termos2{
+    flex-direction: row;
+    align-items: center;
+    
+}
+
