@@ -4,11 +4,12 @@
 }
 body{
     
-    background-color: #fafafa;
+    background-color: #ffff;
     margin-top: 40px;
     align-content: center;
     align-items: center;
     justify-content: center;
+    
 }
 main{
     display: flex;
@@ -17,7 +18,7 @@ main{
     align-content: center;
     align-items: center;
     justify-content: center;
-    height: 78vh;
+    height: 76vh;
 }
 .container{
     display: flex;
@@ -58,13 +59,13 @@ main{
     
 }
 .imagem2{
-    padding: 0px 90px 0px 20px;
+    padding: 0px 90px 20px 20px;
     display: inline-block;
     align-items: center;
     vertical-align: baseline;
     display: flex;
     justify-content: center;
-   margin: 40px 30px 20px 90px;
+    margin: 40px 30px 20px 90px;
 }
 input{
     display: flex;
@@ -77,12 +78,12 @@ input{
     margin-bottom: 5px; 
     justify-items: center;
     align-items: center;
+    background-color: #fafafa;
 
 }
 a{
     text-decoration: none;
 }
-
 
 .cadastro{
     display: block;
@@ -121,7 +122,10 @@ button:hover{
     display: flex;
     flex-direction: column;
     padding-top: 20px;
-    margin-top: 10px;
+    
+}
+.senha > p > a {
+    color: rgb(115, 115, 115);
 }
 .cadastro2{
     display: flex;
@@ -157,18 +161,14 @@ button:hover{
     margin: 5px 0px 0px 20px;
     
 }
-
-
 footer{
     flex-direction: column;
-    background-color: #fafafa;
+    background-color: #ffff;
     text-align: center;
     margin-bottom: 16px;
-    padding: 70px;
+    padding: 30px;
     height: 30px;
-    
 }
-
 .termos{
     padding-bottom: 10px;
     margin: 20px;
@@ -176,9 +176,24 @@ footer{
     font-weight: normal;
     color: gray;
 }
-
+.termos > span > a {
+    color:rgb(115, 115, 115);
+    margin-right: 10px;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .termos2{
     flex-direction: row;
     align-items: center;
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(115, 115, 115);
+    
+}
+.termos2 > span{
+    color:rgb(115, 115, 115);
+    font-size:13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
 }
 
