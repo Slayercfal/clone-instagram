@@ -108,7 +108,14 @@ button:hover{
 .facebook{
     display: flex;
     margin-top: 20px;
-    font-weight: bold;
+
+}
+
+.facebook > a > img {
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-bottom: -3px;
 }
 .senha{
     display: flex;
@@ -138,7 +145,7 @@ button:hover{
 }
 .link{
     display: flex;
-    width: 250px;
+    width: 200px;
     padding-left: 10px;
     margin-left: 0px;
     align-items: center;
@@ -150,6 +157,7 @@ button:hover{
     margin: 5px 0px 0px 20px;
     
 }
+
 
 footer{
     flex-direction: column;
@@ -172,6 +180,5 @@ footer{
 .termos2{
     flex-direction: row;
     align-items: center;
-    
 }
 
