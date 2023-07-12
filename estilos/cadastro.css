@@ -2,16 +2,28 @@
     margin: 0;
     padding: 0;
 }
+
+
 main{
-    margin: auto;
+    height: 98vh;
+    background-color: white;
+    
+
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .container{
     display: flex;
     flex-direction: column;
-    width: 390px;
+    width: 350px;
+    border: 1px solid rgba(115, 115, 115, 0.322);
+    height: 620px;
     margin: auto;
-    border: 1px solid #928f8f;
-    height: 500px;
+    background-color: white;
     
     
 }
@@ -25,30 +37,36 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-bottom: 30px;
+    color: rgb(115, 115, 115);
+    font-size: 22px;
 
 }
-.A1 > button{
+
+.btn-primary{
+    width: 290px;
     padding: 10px;
-    background-color: rgb(107, 107, 241);
+    background-color: #0095f6;
     color: white;
-    border-radius: 5px;
     margin: auto;
+    border: 1px solid #0095f6;
+    border-radius: 10px;
+}
+
+.btn-secondary{
+    width: 290px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    margin: auto;
+    border: 1px solid #0095f6;
+    border-radius: 10px;
+}
     
 
-}
-
-button{
-    padding: 10px;
-    background-color: rgb(107, 107, 241);
-    color: white;
-    border-radius: 5px;
-    margin: auto;
-    
-}
 
 input{
-    padding: 10px;
-    width: 250px;
+    padding: 9px 0 7px 8px;
+    width: 270px;
     margin: auto;
     margin-bottom: px;
     margin-top: 8px;
@@ -56,9 +74,18 @@ input{
     border: 1px solid #bdbaba;
     border-radius: 5px;
 
-
 }
 p{
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: rgb(115, 115, 115);
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.cadastro{
+    border: 1px solid rgba(115, 115, 115, 0.322);
+    padding: 20px;
+    margin-top: 40px;
+    
 }
