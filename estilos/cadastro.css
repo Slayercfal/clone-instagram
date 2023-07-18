@@ -7,14 +7,15 @@
 main{
     height: 98vh;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
 }
 .conteudo{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+   
 }
 .container{
     display: flex;
@@ -22,7 +23,7 @@ main{
     width: 350px;
     border: 1px solid rgba(115, 115, 115, 0.322);
     height: 620px;
-    margin: auto;
+    
     background-color: white;
     
     
